@@ -108,7 +108,7 @@ namespace ConditionalStatements
             } // end of try
             catch
                 {
-                Console.WriteLine("Please use an integer data type between 0 and 101 for your expected grade next time");
+                Console.WriteLine("Please use an integer data type between 0 and 100 for your expected grade next time");
                 Console.WriteLine("Press any key to exit the program and try again...");
                 Console.ReadKey(true);
                 } // end of catch
